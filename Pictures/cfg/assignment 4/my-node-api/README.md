@@ -1,6 +1,17 @@
 npm install express
 npm install cors body-parser
 
+npm install mysql2
+
+npm install dotenv
+
+create. env file 
+DB_PASSWORD=your_mysql_password
+replace with your password
+
+To run
+npm start
+
 
 create MySQL Database 
 
@@ -40,11 +51,6 @@ VALUES
   ('Ben', 5, 'available'),
   ('Sue', 4, 'available');
 
-
-
-npm install mysql2
-
-npm install dotenv
 
 
 postman 
